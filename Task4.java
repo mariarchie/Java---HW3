@@ -1,6 +1,6 @@
 public class Task4 {
     public static void main(String[] args){
-        hanoi(3, "1","2","3");
+        hanoi(3, "1", "2", "3");
     }                                     
     public static void hanoi (int n, String first, String second, String third){
         if (n == 1) {
